@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d2cb4f4de9c8044b86a2e9c6a9c312, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  characterName: Player
+  race: {fileID: 0}
+  classes: []
+  AlignmentText: Neutral
+  level: 0
+  experiencePoints: 0
+  size: 0
+  senses: 00000000
+  Initiative: 0
+  characterIcon: {fileID: 0}
+  SpellResistance: 0
+  HitPoints: 0
+  Fortitude: 0
+  Reflex: 0
+  Will: 0
+  AC: 0
+  TouchAC: 0
+  FlatFootedAC: 0
+  CMD: 0
+  Speeds: 1e000000
+  movementTypes: 00000000
+  attacks:
+  - attackName: Unarmed
+    attackType: 0
+    damages:
+    - damageType: 0
+      damageDie: 3
+      damageDieCount: 1
+      bonusDamage: 0
+      CriticalMultiplier: 2
+      CriticalThreshold: 20
+  BaseAttackBonus: 0
+  CMB: 0
+  spellsPerDay: 
+  spellsKnown: []
+  spellsPrepared: []
+  Strength: 10
+  Dexterity: 10
+  Constitution: 10
+  Intelligence: 10
+  Wisdom: 10
+  Charisma: 10
+  skillRanks: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  abilities: []
+  inventory: []
+  equippedItems: []
