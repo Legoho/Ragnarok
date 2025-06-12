@@ -61,6 +61,12 @@ sysinfo.txt
 *.unitypackage
 *.app
 
+# OS / IDE junk
+.DS_Store
+.vscode/
+*.user
+*.suo
+
 # Crashlytics generated file
 crashlytics-build.properties
 
