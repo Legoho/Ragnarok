@@ -20,8 +20,11 @@ MonoBehaviour:
   experiencePoints: 135
   size: 2
   senses: 02000000
+  sight:
+  - 60
   Initiative: 6
   characterIcon: {fileID: 0}
+  alignment: 0
   SpellResistance: 0
   HitPoints: 6
   Fortitude: 3

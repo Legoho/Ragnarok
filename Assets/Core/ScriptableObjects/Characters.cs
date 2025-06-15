@@ -90,8 +90,11 @@ public class Character : ScriptableObject
     public int experiencePoints;
     public CreatureSize size;
     public Senses[] senses;
+    public float[] sight;
     public int Initiative;
     public Sprite characterIcon;
+
+    public Alignment alignment; // Character's alignment
 
     //Defensive information
     public int SpellResistance; // Spell Resistance
@@ -125,7 +128,7 @@ public class Character : ScriptableObject
     public int Wisdom;
     public int Charisma;
 
-    public int[] skillRanks; // Array of skill ranks for each skill defined in the Skills enum
+    public int[] skillRanks = new int[33]; // Array of skill ranks for each skill defined in the Skills enum
 
     public Abilities[] abilities; // Array of feats available to the character
 

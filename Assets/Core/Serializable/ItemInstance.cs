@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [System.Serializable]
-public class ItemInstance
+public class ItemInstance : MonoBehaviour
 {
     public ItemBase baseItem; // Reference to the SO
     public EnchantmentInstance[] enchantments; // Array of enchantments applied to this instance
