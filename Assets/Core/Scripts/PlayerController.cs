@@ -19,6 +19,14 @@ public class PlayerController : MovementController
         {
             agent.ResetPath();
             agent.speed = 0f; // Stop the agent when the turn is over
+            if (combatState)
+            {
+                Debug.Log("Player's turn is over, waiting for next turn.");
+            }
+            else
+            {
+                ResetMovement(); // Reset movement as we aren't in combat state
+            }
         }
         else
         {

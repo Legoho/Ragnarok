@@ -71,7 +71,7 @@ void Update()
             }
 
 
-            movementController = currentChar.GetComponent<MovementController>();
+                movementController = currentChar.GetComponent<MovementController>();
                 isTurnOver = movementController.IsTurnOver;
                 if (isTurnOver)
                 {
